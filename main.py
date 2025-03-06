@@ -42,8 +42,8 @@ async def search_models(query: str, animated: bool = False, rigged: bool = False
             "views": model["viewCount"],
             "license": model["license"]["label"],
             "faceCount": model["faceCount"],
-            "vertexCount": len(model["vertexCount"]),
-            "animationCount": len(model["animationCount"]),
+            "vertexCount": model["vertexCount"],
+            "animationCount": model["animationCount"],
             "isAgeRestricted": model["isAgeRestricted"]
         }
         for model in results

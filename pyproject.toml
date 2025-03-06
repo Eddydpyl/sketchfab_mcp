@@ -1,6 +1,6 @@
 [project]
 name = "sketchfab-mcp"
-version = "0.1.0"
+version = "0.1.2"
 description = "A microservice for interacting with the Sketchfab API using MCP (Model Control Protocol)."
 authors = [{name = "Eduardo del Palacio Lirola", email = "eduardodelpalaciolirola@gmail.com"}]
 readme = "README.md"
